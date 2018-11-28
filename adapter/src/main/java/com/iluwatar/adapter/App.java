@@ -44,6 +44,18 @@ package com.iluwatar.adapter;
  * captain needs a rowing boat which he can operate. The spec is in {@link RowingBoat}. We will
  * use the Adapter pattern to reuse {@link FishingBoat}.
  *
+ *
+ * 适配器模式：
+ * 分类： 结构类
+ * 角色： adapter适配器，被适配的互不兼容的接口(s)
+ * 目的： 兼容互相不兼容的接口，adapter适配器 通过注入或者包装 使得在不更改原有接口的情况下，不兼容的接口互相兼容
+ * 说明： 适配器目的是做到类的兼容和转换，不强制实现相同的接口，是has-a的接口
+ * 相关： 包装模式，包装注重的是原有类方法的增强，需要实现相同的类接口,是is-a的结构；
+ * 栗子： spring中的各种 *Adapter类
+ *
+ *
+ *
+ *
  */
 public class App {
 

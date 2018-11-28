@@ -37,6 +37,16 @@ import com.iluwatar.delegation.simple.printers.HpPrinter;
  * {@link Printer}. The {@link PrinterController} class also implements {@link Printer}. However neither provide the
  * functionality of {@link Printer} by printing to the screen, they actually call upon the instance of {@link Printer}
  * that they were instantiated with. Therefore delegating the behaviour to another class.
+ *
+ * 模式： 委派模式
+ * 分类： 行为类
+ * 角色： 客户端 client , 调度器 Dispatcher，执行器 Handler
+ * 目的： 客户端直接访问调度器，屏蔽具体的执行逻辑，调度器来决定那个处理器来处理逻辑
+ * 说明：委派模式-全权代理模式
+ * 相关：代理模式
+ * 栗子：spring中 ServletDispatcher
+ *
+ *
  */
 public class App {
 

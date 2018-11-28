@@ -39,7 +39,14 @@ import org.slf4j.LoggerFactory;
  * <p>
  * In this example {@link Weather} has a state that can be observed. The {@link Orcs} and
  * {@link Hobbits} register as observers and receive notifications when the {@link Weather} changes.
- * 
+ *
+ * 观察者模式：
+ * 角色： subject(被观察主体，发布者) - observers(观察者，订阅者)
+ * 分类： 行为类
+ * 意图： observers 根据订阅的subject的状态变化，来执行自己的特定的操作。
+ * 栗子： 发布订阅，事件监听
+ *
+ *
  */
 public class App {
 

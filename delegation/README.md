@@ -1,9 +1,9 @@
 ---
 layout: pattern
-title: Delegation
+title: Delegation 委托模式
 folder: delegation
 permalink: /patterns/delegation/
-categories: Behavioral
+categories: Behavioral 行为类
 tags:
  - Java
  - Difficulty-Beginner
@@ -15,6 +15,7 @@ Proxy Pattern
 ## Intent
 It is a technique where an object expresses certain behavior to the outside but in 
 reality delegates responsibility for implementing that behaviour to an associated object. 
+
 
 ![alt text](./etc/delegation.png "Delegate")
 

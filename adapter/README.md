@@ -4,6 +4,7 @@ title: Adapter
 folder: adapter
 permalink: /patterns/adapter/
 categories: Structural
+结构类
 tags:
  - Java
  - Gang Of Four
@@ -12,6 +13,7 @@ tags:
 
 ## Also known as
 Wrapper
+包装模式
 
 ## Intent
 Convert the interface of a class into another interface the clients

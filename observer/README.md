@@ -3,7 +3,7 @@ layout: pattern
 title: Observer
 folder: observer
 permalink: /patterns/observer/
-categories: Behavioral
+categories: Behavioral 行为模式
 tags:
  - Java
  - Difficulty-Beginner
@@ -18,6 +18,8 @@ Dependents, Publish-Subscribe
 Define a one-to-many dependency between objects so that when one
 object changes state, all its dependents are notified and updated
 automatically.
+在一个对象发生变化时，依赖他的所有对象会被通知并且自动更新
+发布-订阅模式
 
 ![alt text](./etc/observer_1.png "Observer")
 

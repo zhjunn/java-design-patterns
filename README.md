@@ -45,3 +45,12 @@ If you are willing to contribute to the project you will find the relevant infor
 # License
 
 This project is licensed under the terms of the MIT license.
+
+
+ * 模式：
+ * 分类： 
+ * 角色： 
+ * 目的： 
+ * 说明： 
+ * 相关： 
+ * 栗子： 
