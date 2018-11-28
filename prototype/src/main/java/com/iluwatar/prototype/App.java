@@ -35,6 +35,16 @@ import org.slf4j.LoggerFactory;
  * <p>
  * In this example we have a factory class ({@link HeroFactoryImpl}) producing objects by cloning
  * the existing ones. The factory's prototype objects are given as constructor parameters.
+ *
+ *
+ * 模式： 原型模式
+ * 分类： 创建类
+ * 角色： 原型对象 prototype , 对象工厂/创建器 Factory/Builder,新实例 new instance
+ * 目的： 每次获取实例时，都是一个根据原型复制的新对象
+ * 说明：
+ * 相关： 单例模式；深度复制（eg. 字节码，反序列；）
+ * 栗子： spring bean 中的 scope="prototype",每次通过spring容器注入该bean时，都是新的类
+ *
  * 
  */
 public class App {

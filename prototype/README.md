@@ -1,9 +1,9 @@
 ---
 layout: pattern
-title: Prototype
+title: Prototype 原型模式
 folder: prototype
 permalink: /patterns/prototype/
-categories: Creational
+categories: Creational 创建类
 tags: 
  - Java
  - Gang Of Four
@@ -13,6 +13,7 @@ tags:
 ## Intent
 Specify the kinds of objects to create using a prototypical
 instance, and create new objects by copying this prototype.
+使用一个原型来指定创建新实例的类型，所有的新建对象都复制自原型。
 
 ## Explanation
 Real world example

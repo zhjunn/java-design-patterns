@@ -1,9 +1,9 @@
 ---
 layout: pattern
-title: Singleton
+title: Singleton 单例模式
 folder: singleton
 permalink: /patterns/singleton/
-categories: Creational
+categories: Creational 创建类
 tags:
  - Java
  - Gang Of Four
@@ -13,6 +13,7 @@ tags:
 ## Intent
 Ensure a class only has one instance, and provide a global point of
 access to it.
+确保每个类都只有一个实例，并且全局访问的都是这个实例
 
 
 ## Explanation

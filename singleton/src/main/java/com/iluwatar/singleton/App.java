@@ -60,6 +60,20 @@ import org.slf4j.LoggerFactory;
  * Yet another way to implement thread safe lazily initialized Singleton can be found in
  * {@link InitializingOnDemandHolderIdiom}. However, this implementation requires at least Java 8
  * API level to work.
+ *
+ * 模式： 单例模式
+ * 分类： 创造类
+ * 角色： 类，对象获取器(eg. Factory;Builder;)，单例对象
+ * 目的： 确保每个类都只有一个实例，并且全局引用的都是这个实例
+ * 说明： 1、分 饿汉式 和 懒汉式；
+ *       2、一般懒汉式存在线程安全问题，需要加锁
+ *       3、加锁影响性能，懒汉式最佳方式是使用内部类，内部类会在类加载时再加载
+ *
+ * 相关： 原型模式
+ * 栗子： spring 默认 bean的 scope="Singleton"
+ *
+ *
+ *
  */
 public class App {
 
