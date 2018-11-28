@@ -30,7 +30,7 @@ package com.iluwatar.adapter;
  *
  * <p>
  * There are two variations of the Adapter pattern: The class adapter implements the adaptee's
- * interface whereas the object adapter uses composition to contain the adaptee in the adapter
+ * interface whereas the object adapter uses composition to contain the adapter in the adapter
  * object. This example uses the object adapter approach.
  *
  * <p>

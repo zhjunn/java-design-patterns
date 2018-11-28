@@ -40,6 +40,11 @@ import com.iluwatar.abstractfactory.App.FactoryMaker.KingdomType;
  * The essence of the Abstract Factory pattern is a factory interface ({@link KingdomFactory}) and its implementations (
  * {@link ElfKingdomFactory}, {@link OrcKingdomFactory}). The example uses both concrete implementations to create a
  * king, a castle and an army.
+ *
+ * 抽象工厂模式：
+ * 抽象工厂封装了创建一组特定对象的抽象，接口方法定义的返回也是被创建对象的抽象接口
+ * 简单工厂创建单一对象，抽象工厂可以创建一组对象
+ *
  * 
  */
 public class App {
